@@ -12,8 +12,8 @@ subject = st.text_input("Subject")
 body = st.text_area("Message")
 
 # Gmail credentials (NOTE: Use environment variables or secrets in production)
-sender_email = "dhabhaiabhi10a@gmail.com"
-app_password = "jnyfbtggloikgjmd"  # Use 16-digit Gmail App Password
+sender_email = "your_senderid@gmail.com"
+app_password = "your_gmail_app_pasword"  # Use 16-digit Gmail App Password
 
 # Send email when button is clicked
 if st.button("Send Email"):
